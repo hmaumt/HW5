@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>日韓越馬四國來台觀光人數變化</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://code.highcharts.com/themes/adaptive.js"></script>
+
+<figure class="highcharts-figure">
+    <div id="container"></div>
+        <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; max-width: 800px; margin: 30px auto; background-color: #ffffff; padding: 40px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); color: #333333; line-height: 1.8;">
+
+    <header style="margin-bottom: 30px; border-bottom: 1px solid #eeeeee; padding-bottom: 20px;">
+        <span style="display: inline-block; background-color: #d93025; color: white; padding: 4px 12px; font-size: 12px; font-weight: bold; border-radius: 4px; vertical-align: middle; margin-bottom: 10px;">深度報導</span>
+        <h1 style="margin: 10px 0; font-size: 28px; font-weight: 700; color: #1a1a1a; letter-spacing: -0.5px;">數據說話：COVID-19 如何重創亞洲四國來台觀光版圖？</h1>
+        <div style="font-size: 14px; color: #888888; margin-top: 10px;">
+            <span>記者 數據分析中心</span> <span style="margin: 0 8px;">|</span> <span>2024年 產業觀察</span>
+        </div>
+    </header>
+
+    <div style="background-color: #f8f9fa; border-left: 4px solid #2a64ad; padding: 20px; margin-bottom: 30px; border-radius: 0 4px 4px 0;">
+        <p style="margin: 0; font-size: 18px; font-weight: 500; color: #2a64ad; line-height: 1.6;">
+            從高峰跌落谷底，再迎來曙光。最新數據揭露，2020年至2022年間的疫情封鎖，導致日、韓、越、馬四國來台旅客人數出現「斷崖式」下跌，部分國家跌幅甚至超過 99%。
+        </p>
+    </div>
+
+    <article>
+        <p style="margin-bottom: 25px; font-size: 16px;">
+            觀光產業向來是敏感的經濟溫度計。回顧 <strong>2015年至2019年</strong>，台灣觀光市場經歷了一段黃金成長期。以日本為首，旅客數從 162 萬一路攀升至 2019 年的 216 萬高峰；韓國市場更展現驚人爆發力，五年間人數翻倍，從 66 萬成長至 124 萬。然而，這場盛宴在 2020 年初戛然而止。
+        </p>
+
+        <h3 style="color: #1a1a1a; font-size: 22px; margin-top: 40px; margin-bottom: 20px; font-weight: 600; border-left: 5px solid #d93025; padding-left: 15px;">疫情海嘯：2021年的至暗時刻</h3>
+        
+        <p style="margin-bottom: 20px;">
+            隨著 COVID-19 疫情在全球肆虐，各國祭出嚴格的邊境管制。數據顯示，2021 年是近十年來台灣觀光業最寒冷的冬天。與 2019 年的輝煌相比，四個主要亞洲客源國的跌幅令人觸目驚心：
+        </p>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 30px;">
+            <div style="flex: 1 1 45%; background-color: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; box-sizing: border-box;">
+                <h4 style="margin: 0 0 10px 0; color: #555; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">日本 (Japan)</h4>
+                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                    <span style="font-size: 24px; font-weight: bold; color: #d93025;">9,910 人</span>
+                    <span style="font-size: 12px; color: #999;">(2021年)</span>
+                </div>
+                <div style="margin-top: 8px; font-size: 13px; color: #666;">
+                    較2019年重挫 <span style="color: #d93025; font-weight: bold;">99.5%</span>
+                </div>
+            </div>
+
+            <div style="flex: 1 1 45%; background-color: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; box-sizing: border-box;">
+                <h4 style="margin: 0 0 10px 0; color: #555; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">韓國 (Korea)</h4>
+                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                    <span style="font-size: 24px; font-weight: bold; color: #d93025;">3,165 人</span>
+                    <span style="font-size: 12px; color: #999;">(2021年)</span>
+                </div>
+                <div style="margin-top: 8px; font-size: 13px; color: #666;">
+                    僅剩高峰期的 <span style="color: #d93025; font-weight: bold;">0.2%</span>
+                </div>
+            </div>
+            
+             <div style="flex: 1 1 45%; background-color: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; box-sizing: border-box;">
+                <h4 style="margin: 0 0 10px 0; color: #555; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">馬來西亞 (Malaysia)</h4>
+                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                    <span style="font-size: 24px; font-weight: bold; color: #d93025;">6,188 人</span>
+                    <span style="font-size: 12px; color: #999;">(2021年)</span>
+                </div>
+                 <div style="margin-top: 8px; font-size: 13px; color: #666;">
+                    從56萬人次跌至谷底
+                </div>
+            </div>
+
+             <div style="flex: 1 1 45%; background-color: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; box-sizing: border-box;">
+                <h4 style="margin: 0 0 10px 0; color: #555; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">越南 (Vietnam)</h4>
+                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                    <span style="font-size: 24px; font-weight: bold; color: #d93025;">24,872 人</span>
+                    <span style="font-size: 12px; color: #999;">(2021年)</span>
+                </div>
+                 <div style="margin-top: 8px; font-size: 13px; color: #666;">
+                    較2018高峰減少逾9成
+                </div>
+            </div>
+        </div>
+
+        <p style="margin-bottom: 25px;">
+            這段期間，機場空蕩、飯店歇業，觀光產業鏈面臨前所未有的生存危機。直到 2022 年下半年，隨著全球疫苗普及與政策鬆綁，數字才開始出現微幅回升。
+        </p>
+
+        <h3 style="color: #1a1a1a; font-size: 22px; margin-top: 40px; margin-bottom: 20px; font-weight: 600; border-left: 5px solid #28a745; padding-left: 15px;">2023-2024：復甦之路與新挑戰</h3>
+
+        <p style="margin-bottom: 25px;">
+            進入後疫情時代，2023 年展現了強勁的反彈力道。日本旅客回升至 92 萬，韓國與馬來西亞也分別回升至 74 萬與 46 萬人次。預測數據顯示，<strong>2024 年</strong>將是關鍵的一年：
+        </p>
+
+        <ul style="list-style: none; padding: 0; margin-bottom: 30px;">
+            <li style="background-color: #f4fbf6; padding: 15px; margin-bottom: 10px; border-radius: 6px; display: flex; align-items: center;">
+                <span style="font-size: 20px; margin-right: 15px;">🇯🇵</span>
+                <span><strong>日本</strong> 預期回升至 131 萬人次，逐漸接近疫前水準。</span>
+            </li>
+            <li style="background-color: #f4fbf6; padding: 15px; margin-bottom: 10px; border-radius: 6px; display: flex; align-items: center;">
+                <span style="font-size: 20px; margin-right: 15px;">🇰🇷</span>
+                <span><strong>韓國</strong> 復甦力道最強，2024年可望突破百萬大關，達 101 萬人次。</span>
+            </li>
+        </ul>
+
+        <p style="margin-bottom: 10px;">
+            雖然總量尚未完全超越 2019 年的高峰，但趨勢顯示亞洲旅遊信心已大幅回歸。未來如何在航班運能恢復及全球經濟變數下，持續吸引這些鄰國旅客，將是台灣觀光下一個十年的重要課題。
+        </p>
+    </article>
+
+    <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #eeeeee; font-size: 12px; color: #999; text-align: center;">
+        <p>資料來源：交通部觀光署 </p>
+    </footer>
+</div>
+</figure>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
